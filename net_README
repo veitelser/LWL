@@ -1,0 +1,27 @@
+Programs for generating networks
+
+********************************
+
+completenet
+
+compile:
+gcc completenet.c -o completenet
+
+run:
+./completenet L1 L2 ... Lm netfile
+
+L1 L2 ... Lm are layer sizes, from input layer to output layer
+
+********************************
+
+autonet
+
+compile:
+gcc autonet.c -o autonet
+
+run:
+./autonet -E1 ... -Em D1 ... Dn netfile
+
+E1 ... Em are encoder layer sizes, D1 ... Dn are decoder layer sizes
+
+********************************
